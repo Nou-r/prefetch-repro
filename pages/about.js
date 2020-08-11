@@ -2,18 +2,18 @@ import Head from 'next/head'
 import Navigation from "../components/navigation";
 
 
-export default function Home() {
+export default function About() {
   return (
     <div className='container'>
       <Head>
-        <title>Hi, this is home.</title>
+        <title>Hi, this is about.</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navigation />
       
       <main className='main'>
         <h1 className='title'>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">About.!</a>
         </h1>
       </main>
 
